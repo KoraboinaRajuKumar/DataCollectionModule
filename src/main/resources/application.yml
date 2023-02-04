@@ -1,0 +1,17 @@
+server:
+  port: 9876
+spring:
+  application:
+    name: DataCollection-App
+    
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot
+    driver-class-name: com.mysql.jdbc.Driver  
+    username: root
+    password: raju
+     
+    
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true  
